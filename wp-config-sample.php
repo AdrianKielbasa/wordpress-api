@@ -82,7 +82,7 @@ $table_prefix = 'wp_';
 define( 'WP_DEBUG', false );
 
 /* Add any custom values between this line and the "stop editing" line. */
-
+define('JWT_AUTH_SECRET_KEY', 'your-top-secret-key');
 
 
 /* That's all, stop editing! Happy publishing. */
