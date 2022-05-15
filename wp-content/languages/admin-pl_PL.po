@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.9.x - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-11 05:52:49+0000\n"
+"PO-Revision-Date: 2022-05-13 10:23:24+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -3353,7 +3353,7 @@ msgstr "Wyświetlanie obrazków profilowych"
 
 #: wp-admin/options-discussion.php:221
 msgid "An avatar is an image that follows you from weblog to weblog appearing beside your name when you comment on avatar enabled sites. Here you can enable the display of avatars for people who comment on your site."
-msgstr "Obrazek profilowy jest obrazkiem, który podąża za tobą od bloga do bloga, pojawiając się przy twoim podpisie, kiedy dodajesz komentarze na witrynach obsługujących takie obrazki. W tym miejscu możesz włączyć wyświetlanie obrazków profilowych osób, które piszą komentarze na twojej witrynie."
+msgstr "Obrazek profilowy jest obrazkiem, który podąża za tobą od bloga do bloga, pojawiając się przy podpisie, kiedy zostanie dodany komentarze na witrynach obsługujących takie obrazki. W tym miejscu można włączyć wyświetlanie obrazków profilowych osób, które piszą komentarze na twojej witrynie."
 
 #: wp-admin/options-discussion.php:219
 msgid "Avatars"
@@ -3455,7 +3455,7 @@ msgstr "Użytkownicy muszą być zarejestrowani i zalogowani, aby móc komentowa
 
 #: wp-admin/options-discussion.php:67
 msgid "Comment author must fill out name and email"
-msgstr "Autor komentarza musi wprowadzić swój podpis i e-mail"
+msgstr "Komentujący musi wprowadzić swój podpis i adres e-mail"
 
 #: wp-admin/options-discussion.php:65 wp-admin/options-discussion.php:66
 msgid "Other comment settings"
@@ -4315,7 +4315,7 @@ msgstr "Akceptowanie tego ustawienia leży w gestii wyszukiwarki."
 
 #: wp-admin/install.php:193 wp-admin/options-reading.php:187
 msgid "Note: Neither of these options blocks access to your site &mdash; it is up to search engines to honor your request."
-msgstr "Uwaga: Żadna z tych opcji nie blokuje dostępu do twojej witryny &mdash; to, czy prośba zostanie uszanowana, zależy od wyszukiwarki."
+msgstr "Uwaga: żadna z tych opcji nie blokuje dostępu do witryny &mdash; czy prośba zostanie uszanowana, zależy od wyszukiwarki."
 
 #: wp-admin/install.php:192 wp-admin/install.php:200
 #: wp-admin/options-reading.php:186 wp-admin/options-reading.php:207
@@ -4736,7 +4736,7 @@ msgstr "Liczba nieudanych aktualizacji: %s."
 #. translators: %s: Number of failed updates.
 #: wp-admin/includes/update.php:905
 msgid "%s update failed."
-msgstr "Aktualizacja %s nie powiodła się. "
+msgstr "Nie udało się %s aktualizacji."
 
 #. translators: %s: Number of themes.
 #: wp-admin/includes/update.php:895
@@ -6237,7 +6237,7 @@ msgstr "Po naciśnięciu &#8220;Potwierdź usunięcie&#8221; użytkownik zostani
 
 #: wp-admin/includes/ms.php:977
 msgid "User has no sites or content and will be deleted."
-msgstr "Użytkownik nie ma witryn lub treści i zostanie usunięty."
+msgstr "Użytkownik nie ma witryn, ani treści i zostanie usunięty."
 
 #: wp-admin/includes/ms.php:968 wp-admin/users.php:366
 msgid "Attribute all content to:"
@@ -7453,7 +7453,7 @@ msgstr "Podano nieprawidłowy adres URL."
 #. translators: %s: Destination file path.
 #: wp-admin/includes/file.php:1002
 msgid "The uploaded file could not be moved to %s."
-msgstr "Wysłany plik nie mógł zostać przeniesiony do %s."
+msgstr "Przesłany plik nie mógł zostać przeniesiony do %s."
 
 #. translators: 1: php.ini, 2: post_max_size, 3: upload_max_filesize
 #: wp-admin/includes/file.php:911 wp-admin/includes/import.php:87
@@ -10140,7 +10140,7 @@ msgstr "Wyeksportuj jako JSON"
 #. translators: %s: Post title.
 #: wp-admin/includes/class-wp-posts-list-table.php:1502
 msgid "Export &#8220;%s&#8221; as JSON"
-msgstr "Eksportuj &#8220;%s&#8221; jako JSON"
+msgstr "Eksportuj &#8222;%s&#8221; jako JSON"
 
 #. translators: %s: Post title.
 #. translators: %s: Theme name.
@@ -11151,7 +11151,7 @@ msgstr "Wersja Ghostscript"
 
 #: wp-admin/includes/class-wp-debug-data.php:670
 msgid "Unable to determine if Ghostscript is installed"
-msgstr "Brak możliwości sprawdzenia czy Ghostscript został zaintalowany"
+msgstr "Nie można sprawdzić czy zainstalowano Ghostscript"
 
 #: wp-admin/includes/class-wp-debug-data.php:654
 msgid "GD supported file formats"
@@ -11474,7 +11474,7 @@ msgstr "Czy każdy może zarejestrować się na tej witrynie?"
 
 #: wp-admin/includes/class-wp-debug-data.php:106
 msgid "Is this a multisite?"
-msgstr "Czy to multisite?"
+msgstr "Czy to sieć witryn?"
 
 #: wp-admin/includes/class-wp-debug-data.php:101
 msgid "Is this site using HTTPS?"

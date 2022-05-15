@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.9.x - Continents & Cities package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-07 06:05:38+0000\n"
+"PO-Revision-Date: 2022-05-13 10:17:30+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1341,7 +1341,7 @@ msgstr "Santarem"
 
 #: wp-admin/includes/continents-cities.php:206
 msgid "Santa Isabel"
-msgstr "Wyspa Świętej Izabeli"
+msgstr "Santa Isabel"
 
 #: wp-admin/includes/continents-cities.php:205
 msgid "Rosario"
@@ -1645,7 +1645,7 @@ msgstr "Grenada"
 
 #: wp-admin/includes/continents-cities.php:130
 msgid "Grand Turk"
-msgstr "Wielki Turk"
+msgstr "Grand Turk"
 
 #: wp-admin/includes/continents-cities.php:129
 msgid "Goose Bay"
