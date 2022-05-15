@@ -22,3 +22,21 @@ add_filter('rest_authentication_errors', function($result) {
     // on logged-in requests
     return $result;
 });
+
+/**
+ * Change the token's expire value.
+ *
+ * @param int $expire The default "exp" value in timestamp.
+ * @param int $issued_at The "iat" value in timestamp.
+ *
+ * @return int The "nbf" value.
+ */
+add_filter(
+    'jwt_auth_expire',
+    function ($expire, $issued_at) {
+        // Modify the "expire" here.
+        return time() + (MINUTE_IN_SECONDS * 10);
+    },
+    10,
+    2
+);
